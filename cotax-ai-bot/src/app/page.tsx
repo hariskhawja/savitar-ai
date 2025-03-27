@@ -1,22 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import {
-  AttachmentIcon,
-  BotIcon,
-  UserIcon,
-  VercelIcon,
-} from "@/components/icons";
 import { useChat } from "ai/react";
 import { DragEvent, useEffect, useRef, useState } from "react";
-import { Send, User, Bot, ChevronRight, CheckCircle, FileText, Paperclip, X } from "lucide-react"
+import { User, Bot, ChevronRight, CheckCircle, FileText, Paperclip } from "lucide-react"
 import { AnimatePresence, motion } from "framer-motion";
 import { Toaster, toast } from "sonner";
 import Link from "next/link";
 import { Markdown } from "@/components/markdown";
 import { Button } from '@/components/ui/button'
 import Image from "next/image";
-import { Document, Page } from 'react-pdf';
 
 const getTextFromDataUrl = (dataUrl: string) => {
   const base64 = dataUrl.split(",")[1];
@@ -67,10 +60,6 @@ function getRandomQuickReplies(arr : Array<String>) {
   return shuffledArr.slice(0, 3);
 }
 
-let quickRepliesBackend = getRandomQuickReplies(quickRepliesList)
-
-
-
 export default function Home() {
   const [quickReplies, setQuickReplies] = useState(Array<String>);
 
@@ -78,8 +67,6 @@ export default function Home() {
     // Only run this on the client side after the component mounts
     setQuickReplies(getRandomQuickReplies(quickRepliesList));
   }, []); // Empty dependency array ensures this runs only once, after mounting
-
-  const divRef = useRef(null); // Reference to the div
 
   const { messages, input, handleSubmit, handleInputChange, isLoading, append } =
     useChat({
