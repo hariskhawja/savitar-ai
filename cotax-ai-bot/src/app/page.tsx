@@ -101,6 +101,7 @@ export default function Home() {
 
         if (updatedFilesArray.length === 0) {
           setViewFiles(true)
+          setFiles(null)
         }
       }, 200);
     }
