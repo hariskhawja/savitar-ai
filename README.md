@@ -2,13 +2,15 @@
 
 Welcome to the **Cotax AI Bot** project! This is a chat-based AI tax assistant built using Next.js, OpenAI, and TypeScript. It helps users with tax-related queries and provides useful tools, such as tax breakdowns, graphic analysis, and data tabulation.
 
+## Vercel Website
+Link: https://cotax-ai-bot.vercel.app/
+
 ## Features
 
 - **Chat interface:** Users can ask tax-related questions and get responses powered by OpenAI.
 - **Tax breakdowns:** Generate tax breakdowns using a markdown table or HTML.
 - **Real-time streaming:** Provide images, text, of pdf files for the AI to analysis and offer analysis.
 - **Real-time streaming:** Chat responses are streamed in real-time, offering a smooth user experience.
-
 
 ## Prerequisites
 
@@ -41,7 +43,7 @@ yarn install
 ### 3. Set up Environment Variables
 Create a `.env.local` file in the root directory, then insert:
 ```bash
-OPENAI_API_KEY=your-openai-api-key
+OPENAI_API_KEY="your-openai-api-key"
 ```
 
 ### 4. Run the Development Server
