@@ -54,3 +54,10 @@ or
 ```bash
 yarn dev
 ```
+
+# Cotax.AI Assignment Review
+
+## Project Description
+This project is a frontend web application built using the **Next.js** framework and **TypeScript** for programming. It leverages Next.js to set up a route to interact with the **OpenAI GPT-4o** model **API**, allowing users to engage with advanced language processing capabilities. To streamline communication between the frontend and OpenAI, the **Vercel AI SDK** is used as middleware, providing a seamless integration of the language model into the application. The design of the application draws inspiration from the cotax.ai website, aiming for a clean, user-friendly interface that enhances the overall experience.
+
+
