@@ -1,6 +1,6 @@
 # Cotax AI Bot
 
-Welcome to the **Cotax AI Bot** project! This is a chat-based AI tax assistant built using Next.js, OpenAI, and TypeScript. It helps users with tax-related queries and provides useful tools, such as tax breakdowns, graphic analysis, and data tabulation.
+Welcome to the **Cotax AI Bot** project! This is a chat-based AI tax assistant built using Next.js, OpenAI, Vercel AI SDK, and TypeScript. It helps users with tax-related queries and provides useful tools, such as tax breakdowns, graphic analysis, and data tabulation.
 
 ## Vercel Website
 Link: https://cotax-ai-bot.vercel.app/
