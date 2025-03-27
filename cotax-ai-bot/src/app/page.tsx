@@ -522,7 +522,7 @@ export default function Home() {
             onChange={handleFileChange}
           />
           {/* File Upload Button */}
-          <div className="flex items-center w-[75%] max-w-[calc(100dvw-32px)] bg-zinc-200 rounded-full px-4 py-2 mb-4">
+          <div className="flex items-center w-[75%] max-w-[calc(100dvw-32px)] bg-zinc-100 rounded-full px-4 py-2 mb-4">
             <button
               type="button"
               onClick={handleUploadClick}
