@@ -1,9 +1,9 @@
 # Savitar AI
 
-Welcome to the **Cotax AI Bot** project! This is a chat-based AI tax assistant built using Next.js, OpenAI, Vercel AI SDK, and TypeScript. It helps users with tax-related queries and provides useful tools, such as tax breakdowns, graphic analysis, and data tabulation.
+Welcome to the **Savitar AI** project! This is a chat-based AI tax assistant built using Next.js, OpenAI, Vercel AI SDK, and TypeScript. It helps users with tax-related queries and provides useful tools, such as tax breakdowns, graphic analysis, and data tabulation.
 
 ## Vercel Website
-Link: https://cotax-ai-bot.vercel.app/
+Link: https://savitar-ai.vercel.app/
 
 ## Features
 
@@ -26,8 +26,8 @@ Follow these steps to get your development environment set up:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/cotax-ai-bot.git
-cd cotax-ai-bot
+git clone https://github.com/hariskhawja/savitar-ai.git
+cd savitar-ai
 ```
 
 ### 2. Install dependencies
@@ -55,10 +55,10 @@ or
 yarn dev
 ```
 
-# Cotax.AI Assignment Review
+# Savitar AI Assignment Review
 
 ## Project Description
-This project is a frontend web application built using the **Next.js** framework and **TypeScript** for programming. It leverages **Next.js** to set up a route to interact with the **OpenAI GPT-4o** model **API**, allowing users to engage with advanced language processing capabilities. To streamline communication between the frontend and OpenAI, the **Vercel AI SDK** is used as middleware, providing a seamless integration of the language model into the application. The design of the application draws inspiration from the cotax.ai website, aiming for a clean, user-friendly interface that enhances the overall experience.
+This project is a frontend web application built using the **Next.js** framework and **TypeScript** for programming. It leverages **Next.js** to set up a route to interact with the **OpenAI GPT-4o** model **API**, allowing users to engage with advanced language processing capabilities. To streamline communication between the frontend and OpenAI, the **Vercel AI SDK** is used as middleware, providing a seamless integration of the language model into the application.
 
 ## Functionalities Implemented
 - **Real-time conversations** enabled between users and OpenAI's GPT-4o using the **Vercel AI SDK** `useChat` hook, ensuring seamless interactions.
